@@ -13,7 +13,7 @@
 <div class = "mt-2">
   {#if login == false}
     <GoogleAuth
-      clientId="518788113732-7m6gullvbi4phr8el7tari1s3lge27i4.apps.googleusercontent.com"
+      clientId="Client_ID"
       on:auth-success={onSignIn} />
       {:else}
       <div>{name} is logged in </div>
